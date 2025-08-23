@@ -1,7 +1,10 @@
-import './app.module.scss'
+import { Header } from '@/Header'
+import styles from './app.module.scss'
 
 export const App = () => {
   return (
-    <div>rjiogjore</div>
+    <div className={styles.app}>
+      <Header />
+    </div>
   )
 }
