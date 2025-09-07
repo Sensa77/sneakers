@@ -1,0 +1,18 @@
+@use '@/shared/styles/colors.module.scss' as *;
+
+.button {
+  padding: 14px 0 14px 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 110px;
+  color: #FFFFFF;
+  background-color: $color-green-100;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color-green-200;
+  }
+}

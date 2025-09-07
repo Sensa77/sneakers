@@ -1,9 +1,9 @@
 import styles from "./Header.module.scss";
 import cn from 'classnames'
-import logo from "@/assets/logo.png";
-import basket from "@/assets/svg/basket.svg";
-import like from "@/assets/svg/like.svg";
-import profile from '@/assets/svg/profile.svg'
+import logo from "@/assets/header/logo.png";
+import basket from "@/assets/header/svg/basket.svg";
+import like from "@/assets/header/svg/like.svg";
+import profile from '@/assets/header/svg/profile.svg'
 
 export const Header = () => {
   return (

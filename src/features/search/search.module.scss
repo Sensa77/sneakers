@@ -1,0 +1,31 @@
+@use '@/shared/styles/colors.module.scss' as *;
+
+.searchWrapper {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-image: url('./../../assets/search.svg');
+    background-repeat: no-repeat;
+    top: 15px;
+    left: 18px;
+    z-index: 2;
+  }
+}
+
+.search {
+  width: 250px;
+  height: 45px;
+  padding: 13px 18px 15px 46px;
+  position: relative;
+  border: 1px solid $color-grey-100;
+  border-radius: 10px;
+
+  &::placeholder {
+    color: $color-grey-400;
+  }
+}
